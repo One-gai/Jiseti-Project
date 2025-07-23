@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #3498db; /* Main theme color */
+    --secondary-color: #2ecc71; /* Secondary theme color */
+    --accent-color: #e74c3c; /* Accent color for highlights */
+    --background-color: #ecf0f1; /* Background color */
+    --text-color: #2c3e50; /* Default text color */
+    --font-family: 'Arial', sans-serif; /* Default font family */
+    --font-size-base: 16px; /* Base font size */
+    --border-radius: 4px; /* Default border radius */
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Default box shadow */
+}
