@@ -1,0 +1,13 @@
+import React from 'react';
+import './NotificationToast.module.css';
+
+const NotificationToast = ({ message, type, onClose }) => {
+    return (
+        <div className={`notification-toast ${type}`}>
+            <span>{message}</span>
+            <button onClick={onClose}>Close</button>
+        </div>
+    );
+};
+
+export default NotificationToast;
